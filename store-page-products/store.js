@@ -13,7 +13,6 @@ productStoreItems.forEach(storeProduct =>{
 });
 
 //latest product loop for each products in store page
-
 const LatestProductsStore=document.querySelector(".latest-slider");
 latestProducts.forEach(product =>{
 LatestProductsStore.innerHTML+=
@@ -48,7 +47,7 @@ cardConatinerProducts.innerHTML+=
     </div>
          `;
 });
-
+//card eventlistener
 //latest card eventlistener
 const productitems=document.querySelectorAll(".latest-card");
 productitems.forEach(items=>{
